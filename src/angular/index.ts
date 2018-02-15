@@ -181,6 +181,7 @@ export class PagerComponent
     };
 
     this._templateMap.set(key, keyedTemplate);
+    this.setItemTemplates()
   }
 
   ngOnDestroy() {
